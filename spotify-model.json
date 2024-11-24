@@ -1,0 +1,328 @@
+{
+    "models": [
+        {
+            "edges": [
+                {
+                    "id": "ee1c191e-cdc5-44d5-a683-ac8a3c4f4479",
+                    "name": "e_AddNewTrackToPlaylist",
+                    "sourceVertexId": "786c3673-74f9-4cf7-a083-b3da2fb8b8de",
+                    "targetVertexId": "180ed64e-05e9-4351-8545-3286225f8d8b",
+                    "input": "ADD_NEW_TRACK_TO_PLAYLIST_I",
+                    "output": "ADD_NEW_TRACK_TO_PLAYLIST_O"
+                },
+                {
+                    "id": "5e88c417-25ba-4e68-8da1-b91fa62af06d",
+                    "name": "e_RemoveTrackFromPlaylist",
+                    "sourceVertexId": "180ed64e-05e9-4351-8545-3286225f8d8b",
+                    "targetVertexId": "786c3673-74f9-4cf7-a083-b3da2fb8b8de",
+                    "input": "REMOVE_TRACK_FROM_PLAYLIST_I",
+                    "output": "REMOVE_TRACK_FROM_PLAYLIST_O"
+                },
+                {
+                    "id": "f981c35e-99ed-4a6d-b246-af8c1ac77fda",
+                    "name": "e_StopPlaying",
+                    "sourceVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "targetVertexId": "14a6de82-459b-461c-ab33-b654bf0a5b39",
+                    "input": "STOP_PLAYING_I",
+                    "output": "STOP_PLAYING_O"
+                },
+                {
+                    "id": "40398693-00b6-4103-86f9-718d90855339",
+                    "name": "e_UsePlayer",
+                    "sourceVertexId": "14a6de82-459b-461c-ab33-b654bf0a5b39",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "USE_PLAYER_I",
+                    "output": "USE_PLAYER_O"
+                },
+                {
+                    "id": "d86265f7-f34e-43d0-bbb2-697822553570",
+                    "name": "e_StartPlaying",
+                    "sourceVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "targetVertexId": "3848b62c-b5ee-42d2-81cb-34c6e955cdcc",
+                    "input": "START_PLAYING_I",
+                    "output": "START_PLAYING_O"
+                },
+                {
+                    "id": "c9c86e2b-9721-4b38-91cc-3cab99111b7e",
+                    "name": "e_UsePlayer",
+                    "sourceVertexId": "3848b62c-b5ee-42d2-81cb-34c6e955cdcc",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "USE_PLAYER_I",
+                    "output": "USE_PLAYER_O"
+                },
+                {
+                    "id": "f5f64775-b52a-408f-ab8a-2397a2dbdc5e",
+                    "name": "e_StopPlaying",
+                    "sourceVertexId": "3848b62c-b5ee-42d2-81cb-34c6e955cdcc",
+                    "targetVertexId": "14a6de82-459b-461c-ab33-b654bf0a5b39",
+                    "input": "STOP_PLAYING_I",
+                    "output": "STOP_PLAYING_O"
+                },
+                {
+                    "id": "f3e2e276-d5a4-49bb-863a-87e42039ced1",
+                    "name": "e_ResumePlaying",
+                    "sourceVertexId": "14a6de82-459b-461c-ab33-b654bf0a5b39",
+                    "targetVertexId": "3848b62c-b5ee-42d2-81cb-34c6e955cdcc",
+                    "input": "START_PLAYING_I",
+                    "output": "START_PLAYING_O"
+                },
+                {
+                    "id": "1ad5d3fb-d114-4c88-a56f-76dcf2188efb",
+                    "name": "e_UsePlayer",
+                    "sourceVertexId": "21337d44-baa3-475e-a08b-f2190105a4d7",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "USE_PLAYER_I",
+                    "output": "USE_PLAYER_O"
+                },
+                {
+                    "id": "5f8d1bb4-24f5-4eb9-bb8d-a5c283602e56",
+                    "name": "e_Search",
+                    "sourceVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "targetVertexId": "21337d44-baa3-475e-a08b-f2190105a4d7",
+                    "input": "SEARCH_PERFORM_I",
+                    "output": "SEARCH_PERFORM_O"
+                },
+                {
+                    "id": "b262cfd3-ff97-422a-8b68-70c36446b08e",
+                    "name": "e_ChangeVolume",
+                    "sourceVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "CHANGE_VOLUME_I",
+                    "output": "CHANGE_VOLUME_O"
+                },
+                {
+                    "id": "f957e4d0-cfeb-4784-9ea0-66f453aa04e0",
+                    "name": "e_SeekToPosition",
+                    "sourceVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "SEEK_TO_POSITION_I",
+                    "output": "SEEK_TO_POSITION_O"
+                },
+                {
+                    "id": "ec3c2ecd-4b6b-46f6-ad36-ba490ef4c622",
+                    "name": "e_Search",
+                    "sourceVertexId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "targetVertexId": "21337d44-baa3-475e-a08b-f2190105a4d7",
+                    "input": "SEARCH_PERFORM_I",
+                    "output": "SEARCH_PERFORM_O"
+                },
+                {
+                    "id": "d7e9a2f5-638d-4a3f-bdb3-99548e234b5e",
+                    "name": "e_GetMyProfile",
+                    "sourceVertexId": "21337d44-baa3-475e-a08b-f2190105a4d7",
+                    "targetVertexId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "input": "GET_MY_PROFILE_I",
+                    "output": "GET_MY_PROFILE_O"
+                },
+                {
+                    "id": "d1711ca5-b420-41c1-bb6e-3b61245cac13",
+                    "name": "e_UsePlayer",
+                    "sourceVertexId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "USE_PLAYER_I",
+                    "output": "USE_PLAYER_O"
+                },
+                {
+                    "id": "5f39b65b-6a2a-4e4b-bf15-6747f479e219",
+                    "name": "e_GetMyProfile",
+                    "sourceVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "targetVertexId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "input": "GET_MY_PROFILE_I",
+                    "output": "GET_MY_PROFILE_O"
+                },
+                {
+                    "id": "9912b449-69ce-41d6-918f-c03c928290b1",
+                    "name": "e_CreatePlaylist",
+                    "sourceVertexId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "targetVertexId": "20de04b6-6e74-4f9f-90d1-b98656baba33",
+                    "input": "CREATE_PLAYLIST_I",
+                    "output": "CREATE_PLAYLIST_O"
+                },
+                {
+                    "id": "66533596-f8ec-42df-aa7a-08ca27692376",
+                    "name": "e_FetchPlaylist",
+                    "sourceVertexId": "20de04b6-6e74-4f9f-90d1-b98656baba33",
+                    "targetVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "input": "FETCH_PLAYLIST_I",
+                    "output": "FETCH_PLAYLIST_O"
+                },
+                {
+                    "id": "9acc6e21-954f-4d87-a237-119a9b742108",
+                    "name": "e_ManagePlaylistData",
+                    "sourceVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "targetVertexId": "5374afae-0713-496e-b3fc-e34e2afe379d",
+                    "input": "MANAGE_PLAYLIST_DATA_I",
+                    "output": "MANAGE_PLAYLIST_DATA_O"
+                },
+                {
+                    "id": "f9aa4bc2-ad04-4ee3-b560-0fabcf747a95",
+                    "name": "e_FetchPlaylist",
+                    "sourceVertexId": "5374afae-0713-496e-b3fc-e34e2afe379d",
+                    "targetVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "input": "FETCH_PLAYLIST_I",
+                    "output": "FETCH_PLAYLIST_O"
+                },
+                {
+                    "id": "4a783ab3-b346-4e35-858b-e971c04c385e",
+                    "name": "e_UsePlayer",
+                    "sourceVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "USE_PLAYER_I",
+                    "output": "USE_PLAYER_O"
+                },
+                {
+                    "id": "b4f3a5f4-91f6-45dc-bd71-2bc53147333c",
+                    "name": "e_Search",
+                    "sourceVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "targetVertexId": "21337d44-baa3-475e-a08b-f2190105a4d7",
+                    "input": "SEARCH_PERFORM_I",
+                    "output": "SEARCH_PERFORM_O"
+                },
+                {
+                    "id": "d7b1c4f2-cb5b-4ac9-87bc-61b5542d03c7",
+                    "name": "e_AddNewTrackToPlaylist",
+                    "sourceVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "targetVertexId": "180ed64e-05e9-4351-8545-3286225f8d8b",
+                    "input": "ADD_NEW_TRACK_TO_PLAYLIST_I",
+                    "output": "ADD_NEW_TRACK_TO_PLAYLIST_O"
+                },
+                {
+                    "id": "9047db8b-1c5d-450f-9ca6-834660b274c9",
+                    "name": "e_FetchPlaylist",
+                    "sourceVertexId": "180ed64e-05e9-4351-8545-3286225f8d8b",
+                    "targetVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "input": "FETCH_PLAYLIST_I",
+                    "output": "FETCH_PLAYLIST_O"
+                },
+                {
+                    "id": "29a12519-044b-4070-897f-1ff4d1905e5c",
+                    "name": "e_RemoveTrackFromPlaylist",
+                    "sourceVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "targetVertexId": "786c3673-74f9-4cf7-a083-b3da2fb8b8de",
+                    "input": "REMOVE_TRACK_FROM_PLAYLIST_I",
+                    "output": "REMOVE_TRACK_FROM_PLAYLIST_O"
+                },
+                {
+                    "id": "302b947d-e40e-45bf-82d0-cb772f716c56",
+                    "name": "e_FetchPlaylist",
+                    "sourceVertexId": "786c3673-74f9-4cf7-a083-b3da2fb8b8de",
+                    "targetVertexId": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "input": "FETCH_PLAYLIST_I",
+                    "output": "FETCH_PLAYLIST_O"
+                },
+                {
+                    "id": "4dc593ad-fc20-4a62-b98a-f07d739e8b93",
+                    "name": "e_FetchOwnedPlaylists",
+                    "sourceVertexId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "targetVertexId": "1f637ec0-10ce-4ce4-86b5-b50d3777ba16",
+                    "input": "FETCH_OWN_PLAYLISTS_I",
+                    "output": "FETCH_OWN_PLAYLISTS_O"
+                },
+                {
+                    "id": "684cfd0c-4f67-420e-b15a-20254ffe8e2d",
+                    "name": "e_UsePlayer",
+                    "sourceVertexId": "1f637ec0-10ce-4ce4-86b5-b50d3777ba16",
+                    "targetVertexId": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "input": "USE_PLAYER_I",
+                    "output": "USE_PLAYER_O"
+                }
+            ],
+            "generator": "random(edge_coverage(100))",
+            "id": "f05bdc76-a5ed-4821-986b-e96a371ea98a",
+            "name": "spotify-model",
+            "startElementId": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+            "vertices": [
+                {
+                    "id": "77e33ce5-f4ec-4dcf-b370-4a1be0198f7e",
+                    "name": "v_MyProfile",
+                    "properties": {
+                        "x": 540,
+                        "y": 807
+                    }
+                },
+                {
+                    "id": "180ed64e-05e9-4351-8545-3286225f8d8b",
+                    "name": "v_NewTrackAdded",
+                    "properties": {
+                        "x": 616,
+                        "y": 223
+                    }
+                },
+                {
+                    "id": "786c3673-74f9-4cf7-a083-b3da2fb8b8de",
+                    "name": "v_TrackRemoved",
+                    "properties": {
+                        "x": 1054.6807724735677,
+                        "y": 228.93773085889484
+                    }
+                },
+                {
+                    "id": "4bb3bcd7-0429-459b-8046-efea91afd267",
+                    "name": "v_Player",
+                    "properties": {
+                        "x": 178,
+                        "y": 444
+                    }
+                },
+                {
+                    "id": "14a6de82-459b-461c-ab33-b654bf0a5b39",
+                    "name": "v_Stop",
+                    "properties": {
+                        "x": 641,
+                        "y": 72
+                    }
+                },
+                {
+                    "id": "3848b62c-b5ee-42d2-81cb-34c6e955cdcc",
+                    "name": "v_Start",
+                    "properties": {
+                        "x": 268,
+                        "y": 74
+                    }
+                },
+                {
+                    "id": "21337d44-baa3-475e-a08b-f2190105a4d7",
+                    "name": "v_Search",
+                    "properties": {
+                        "x": 541,
+                        "y": 542
+                    }
+                },
+                {
+                    "id": "0de208ed-3397-4fd5-941b-a8b7fa88de77",
+                    "name": "v_FetchUniquePlaylist",
+                    "properties": {
+                        "x": 801,
+                        "y": 443
+                    }
+                },
+                {
+                    "id": "20de04b6-6e74-4f9f-90d1-b98656baba33",
+                    "name": "v_PlaylistCreated",
+                    "properties": {
+                        "x": 802,
+                        "y": 657
+                    }
+                },
+                {
+                    "id": "5374afae-0713-496e-b3fc-e34e2afe379d",
+                    "name": "v_ManagePlaylist",
+                    "properties": {
+                        "x": 1174,
+                        "y": 443
+                    }
+                },
+                {
+                    "id": "1f637ec0-10ce-4ce4-86b5-b50d3777ba16",
+                    "name": "v_FetchOwnedPlaylists",
+                    "properties": {
+                        "x": 179,
+                        "y": 698
+                    }
+                }
+            ]
+        }
+    ],
+    "selectedModelIndex": 0,
+    "selectedElementId": null
+}
